@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HR portal</title>
+    <style>
+        body{
+            margin: 0%;
+            padding: 0%;
+            font-family: sans-serif;
+            background-color:rgb(234, 234, 233);
+        }
+        header,footer{
+            background-color:cadetblue;
+            color:black;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 2px;
+        }
+        .navitem{
+            display: inline;
+            padding: 15px;
+        }
+        .registration{
+          width: max-content;
+          margin-left: auto;
+          margin-right: auto;
+            
+        }
+        .emptable{
+            text-align: center;
+        }
+        table{
+            width: 200px;;
+        }
+        th,td{
+            border: 1px solid cadetblue;
+        }
+        .contact-us{
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Company HR Portal</h1>
+    <ul>
+        <li class="navitem"><a href="#employee-registration">Employee registration</a></li>
+        <li class="navitem"><a href="#employee-directory">Employee directory</a></li>
+        <li class="navitem"><a href="#contact-us">Contact us</a></li>
+    </ul>
+    
+</header>
+<image src="https://image.freepik.com/free-vector/corporate-staff-employees-working-creative-co-working-open-space-ic-coworkers-businesspeople-sitting-workplace-discussing-new-project-modern-office-interior-full-length-horizontal_48369-26097.jpg" style="width: 100%; height: 200px;"></image>
+<section id="employee-registration" class="registration">
+    <h2>Employee Registration</h2>
+    <p>Fill the below form to register as employee</p>
+    <form>
+        <label for="Name">Enter name</label>
+        <input type="text" id="Name"><br><br>
+        <label for="password">Enter password</label>
+        <input type="password" id="password"><br><br>
+        <label for="gmail">Enter gmail</label>
+        <input type="email" id="gmail"><br><br>
+        <label for="age">ID</label>
+        <input type="number" id="age"><br><br>
+        <label for="domain">Select domain</label>
+        <select>
+            <option value>Softaware engineer</option>
+            <option value>Infrastructure engineer</option>
+            <option value>department head</option>
+            <option value>Senior manager</option>
+        </select><br><br>
+          <label for="joining date">joining date</label>
+          <input type="date" id="joining date">
+        <section id="employee-directory" class="emptable">
+            <h1>Registered Employees</h1>
+            <table>
+                <ul>
+                <tr>
+                    <th>Employee Name</th>
+                    <th>Employee ID</th>
+                    <th>Employee Domain</th>
+                </tr>
+                <tr>
+                    <td>John patel</td>
+                    <td>252</td>
+                    <td>Infrastructure engineer</td>
+                </tr>
+                <tr>
+                    <td>Seema Patil</td>
+                    <td>322</td>
+                    <td>Senior manager</td>
+                </tr>
+                <tr>
+                    <td>Hari Shaik</td>
+                    <td>224</td>
+                    <td>Softaware engineer</td>
+                </tr>
+                <tr>
+                    <td> Rahul Patil</td>
+                    <td>122</td>
+                    <td>Infrastructure engineer</td>
+                </tr>
+                </ul>
+            </table>
+        </section>
+
+    </form>
+</section>
+
+<section id="Contact-us" class="contact-us">
+    <h2>Contact-us</h2>
+    <p>For any query refer www.company@gmail.com or call us on number 8088454300 from 8AM to 9PM</p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3721.8333674325827!2d79.04459737503404!3d21.119208480552867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4c060285ff0f1%3A0xa2ce1d92ff9239b6!2sMicropro%20Software%20Solutions%20Limited!5e0!3m2!1sen!2sin!4v1711470870225!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">Location</iframe>"
+</section>
+
+<footer>
+    <p>&copy 2023 Microsoft software solutions limited</p>
+</footer>
+    
+</body>
+</html>
